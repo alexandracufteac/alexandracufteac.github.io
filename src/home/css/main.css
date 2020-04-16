@@ -1,0 +1,53 @@
+/* Banner */
+
+/* Reviews */
+
+#reviewsBtn {
+ border-top: 1px solid black;
+ border-radius: unset;
+}
+
+#reviewsBtnHide {
+  border-top: 1px solid black;
+  border-radius: unset;
+  display: none;
+}
+
+/* Footer */
+
+.footer {
+    background: rgb(7, 103, 116);
+    color:white;
+}
+
+#aboutCompanyFooter{
+  font-size: 1em; 
+  text-align: justify;   
+}
+
+#aboutCompanyFooter p {
+  color: rgb(161, 185, 192);
+}
+
+#linksFooter ul {
+  list-style-type: none;
+  font-size: 0.9em;
+}
+
+#linksFooter li a{
+   color: rgb(161, 185, 192);
+   transition: color .2s;
+}
+
+#linksFooter li a:hover{
+  text-decoration:none;
+  color: black;
+}
+
+
+#locationFooter p {
+  font-size: 0.9em;
+  color: rgb(161, 185, 192);
+  font-weight: 500;
+}
+

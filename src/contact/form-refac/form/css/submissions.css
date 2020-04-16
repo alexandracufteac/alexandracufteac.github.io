@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+/* General styles */
+
+#form {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+
+#form-container {
+    width: 90%;
+    height: auto;
+    margin: 10px auto 20px auto;
+}
+
+
+/* Form elements */
+
+
+
+label, input, textarea, select {
+    display: block;
+    width: 350px;
+}
+
+label {
+    padding: 5px 0;
+    margin: 5px auto 0 auto;
+}
+
+.radio-options {
+    display: block;
+    
+}
+
+.radio-buttons {
+    display: inline-block;
+    width: 15px;
+
+}
+
+/* Footer */
+.footer{
+    background: #152F4F;
+    color:white;
+    
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+
+
+/* footer */
+
+.footer{
+  background: rgb(7, 103, 116);
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
