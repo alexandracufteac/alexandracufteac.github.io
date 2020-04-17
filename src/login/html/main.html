@@ -7,6 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./../css/main.css'>
     <link rel="stylesheet" type="text/css" media="screen" href="./../../general-styles/navbar.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./../../general-styles/footer.css">
     
 
     <!-- jQuery -->
@@ -35,18 +36,18 @@
         <nav class="d-md-none navbar navbar-expand-md navbar-dark fixed-top customNav"> 
             <div class="container-fluid">
 
-                <a class="navbar-brand " href="index.html">VIDEOFY</a>
+                <a class="navbar-brand " href="./../../home/html/index.html">VIDEOFY</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto align-items-center">
     
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../../home/html/index.html">Home </a>
                     </li>
             
                     <li class="nav-item">
@@ -54,7 +55,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="./../../about-us/html/main.html">About us</a>
                     </li>
 
                     <li class="nav-item">
@@ -69,8 +70,8 @@
                         <a class="btn btn-outline-primary ml-2" href="./../../sign-up/html/main.html">Sign up</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="btn btn-outline-secondary ml-2" href="./../../login/html/main.html">Login</a>
+                    <li class="nav-item  active">
+                        <a class="btn btn-outline-secondary ml-2" href="./../../login/html/main.html">Login<span class="sr-only">(current)</span></a>
                     </li>
                     </ul>
                     
@@ -88,13 +89,13 @@
     <!-- it expands at medium size (md) -->
     <div class="container-fluid navcontainer">
 
-        <a class="navbar-brand " href="index.html" id="logoBig"><img src="./../images/logopngcr.png" class="img-fluid" alt="Logo Videofy"></a>
+        <a class="navbar-brand " href="./../../home/html/index.html" id="logoBig"><img src="./../../images/logopngcr.png" class="img-fluid" alt="Logo Videofy"></a>
 
         <div>
             <ul class="navbar-nav ml-auto align-items-center">
 
-            <li class="nav-item active">
-                <a class="nav-link navButtonsBig activeBtn" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link navButtonsBig" href="./../../home/html/index.html">Home</a>
             </li>
     
             <li class="nav-item">
@@ -117,8 +118,8 @@
                 <a class="btn ml-2" href="./../../sign-up/html/main.html" id="signUpBig"><span class="navButtonsBig">Sign Up</span> </a>
             </li>
 
-            <li class="nav-item">
-                <a class="btn ml-2" href="./../../login/html/main.html" id="loginBig"><span class="navButtonsBig">Login</span></a>
+            <li class="nav-item active">
+                <a class="btn ml-2" href="main.html" id="loginBig"><span class="navButtonsBig">Login</span><span class="sr-only">(current)</span></a>
             </li>
             </ul>
             
@@ -134,8 +135,8 @@
        
         <!-- Banner - Bootstrap + CSS-->
         
-            <img src="./../images/sm-banner.jpg" class="img-fluid d-sm-none" alt="Small Banner">
-            <img src="./../images/lg-banner.jpg" class="img-fluid d-none d-sm-block" alt="Responsive image"> 
+            <img src="./../../images/sm-banner.jpg" class="img-fluid d-sm-none" alt="Small Banner">
+            <img src="./../../images/lg-banner.jpg" class="img-fluid d-none d-sm-block" alt="Responsive image"> 
                      
 
     </header>
@@ -191,42 +192,54 @@
 </main>
 
  <!-- FOOTER -->
+ 
  <footer class="text-center mt-4">
 
-    <div class="mt-5 pt-5 footer">
+    <div class="mt-5 pt-3 pt-sm-5 footer">
      <div class="container-fluid">
-       <div class="row">
-         <div class="col-lg-5 col-xs-12 about-company">
-           <h2>Heading</h2>
-           <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
-           <p>
-             <a href="#"><i class="fa fa-facebook-square mr-1"></i></a>
-             <a href="#"><i class="fa fa-linkedin-square"></i></a>
-         </p>
+       <div class="row justify-content-around">
+
+         <div class="col-sm-4 d-none d-sm-block" id="aboutCompanyFooter">
+             <h4 class="mt-lg-0 mt-sm-3">Our mission</h2>
+             <p>We created our product with love and passion to help you make the world around you more beautiful. If you would like to be part of our
+                 story, we are here to listen to you. 
+             </p>
          </div>
-         <div class="col-lg-3 col-xs-12 links">
-           <h4 class="mt-lg-0 mt-sm-3">Links</h4>
-             <ul class="m-0 p-0">
-               <li>- <a href="#">Lorem ipsum</a></li>
-               <li>- <a href="#">Nam mauris velit</a></li>
-               <li>- <a href="#">Etiam vitae mauris</a></li>
+
+         <div class="col-sm-3" id="linksFooter">
+             <h6 class="d-sm-none">More from us</h6>
+             <h4 class="d-none d-sm-block mt-lg-0 mt-sm-3">More from us</h6>
+
+             <ul class="m-0 mb-3 p-0">
+               <li><a href="#">Blog</a></li>
+               <li><a href="https://www.facebook.com">Facebook</a></li>
+               <li><a href="https://www.instagram.com">Instagram</a></li>
              </ul>
          </div>
-         <div class="col-lg-4 col-xs-12 location">
-           <h4 class="mt-lg-0 mt-sm-4">Location</h4>
-           <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-           <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
-           <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
-         </div>
-       </div>
-       <div class="row mt-2">
-         <div class="col copyright">
-           <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
-         </div>
-       </div>
-     </div>
-     </div>
- </footer>
 
+         <div class="col-sm-3" id="locationFooter">
+           <h6 class="d-sm-none">Contact</h6>
+           <h4 class="d-none d-sm-block mt-lg-0 mt-sm-3">Contact</h6>
+
+           <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+
+           <p class="mb-0"><i class="fa fa-phone mr-1"></i>(001) 123-4567</p>
+           <p><i class="fas fa-envelope mr-1"></i>info@videofy.com</p>
+         </div>
+       </div>
+
+       <div class="row mt-2 justify-content-center">
+         <div class="col-12 col-md-6">
+           <p><small class="text-white">© 2020. Disclaimer: This website is for a <b>fictional product</b>. The Videofy app found here does not exist and any resemblance to a real app is unintentional.
+               The banner image belongs to the <a href="https://www.microsoft.com/en-us/p/video-editor-master/9nblggh5qb93?activetab=pivot:overviewtab" style="color: rgb(198, 232, 255);">Video Editor Master app</a> and it is modified and used as a fictional banner. The videos and any other images belong to their rightful 
+               creators. The purpose of this website is for me to practice and learn new web development skills.
+           </small></p>
+         </div>
+       </div>
+
+     </div>
+    </div>
+
+ </footer>
 </body>
 </html>
