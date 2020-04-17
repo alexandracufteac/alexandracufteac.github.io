@@ -6,10 +6,13 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="stylesheet" href="">
         <link rel="stylesheet" type="text/css" media="screen" href="./../../general-styles/navbar.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="./../../general-styles/footer.css">
+
        
-       <!-- jQuery -->
+    <!-- jQuery -->
     <script src='./../../lib/jQuery-3.4.1/jquery-3.4.1.js'></script>
 
     <!-- bootstrap -->
@@ -21,6 +24,8 @@
     <link rel='stylesheet' type='text/css' media='screen' href='./../../lib/fontawesome-free-5.12.0/css/all.min.css'>
 
     </head>
+
+    
     <body>
       
       <!--NAVBAR - Bootstrap-->
@@ -38,11 +43,11 @@
               <span class="navbar-toggler-icon"></span>
               </button>
 
-              <div class="collapse navbar-collapse">
+              <div class="collapse navbar-collapse" id="navbarResponsive">
                   <ul class="navbar-nav ml-auto align-items-center">
   
                   <li class="nav-item">
-                      <a class="nav-link" href="./../../home/html/index.html">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="./../../home/html/index.html">Home</a>
                   </li>
           
                   <li class="nav-item">
@@ -50,7 +55,7 @@
                   </li>
 
                   <li class="nav-item active">
-                      <a class="nav-link" href="main.html">About us</a>
+                      <a class="nav-link" href="main.html">About us<span class="sr-only">(current)</span></a>
                   </li>
 
                   <li class="nav-item">
@@ -137,6 +142,61 @@
   </header>
 
       
+  <main>
 
+
+  </main>
+
+
+
+  
+  <footer class="text-center mt-4">
+
+    <div class="mt-5 pt-3 pt-sm-5 footer">
+     <div class="container-fluid">
+       <div class="row justify-content-around">
+
+         <div class="col-sm-4 d-none d-sm-block" id="aboutCompanyFooter">
+             <h4 class="mt-lg-0 mt-sm-3">Our mission</h2>
+             <p>We created our product with love and passion to help you make the world around you more beautiful. If you would like to be part of our
+                 story, we are here to listen to you. 
+             </p>
+         </div>
+
+         <div class="col-sm-3" id="linksFooter">
+             <h6 class="d-sm-none">More from us</h6>
+             <h4 class="d-none d-sm-block mt-lg-0 mt-sm-3">More from us</h6>
+
+             <ul class="m-0 mb-3 p-0">
+               <li><a href="#">Blog</a></li>
+               <li><a href="https://www.facebook.com">Facebook</a></li>
+               <li><a href="https://www.instagram.com">Instagram</a></li>
+             </ul>
+         </div>
+
+         <div class="col-sm-3" id="locationFooter">
+           <h6 class="d-sm-none">Contact</h6>
+           <h4 class="d-none d-sm-block mt-lg-0 mt-sm-3">Contact</h6>
+
+           <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+
+           <p class="mb-0"><i class="fa fa-phone mr-1"></i>(001) 123-4567</p>
+           <p><i class="fas fa-envelope mr-1"></i>info@videofy.com</p>
+         </div>
+       </div>
+
+       <div class="row mt-2 justify-content-center">
+         <div class="col-12 col-md-6">
+           <p><small class="text-white">© 2020. Disclaimer: This website is for a <b>fictional product</b>. The Videofy app found here does not exist and any resemblance to a real app is unintentional.
+               The banner image belongs to the <a href="https://www.microsoft.com/en-us/p/video-editor-master/9nblggh5qb93?activetab=pivot:overviewtab" style="color: rgb(198, 232, 255);">Video Editor Master app</a> and it is modified and used as a fictional banner. The videos and any other images belong to their rightful 
+               creators. The purpose of this website is for me to practice and learn new web development skills.
+           </small></p>
+         </div>
+       </div>
+
+     </div>
+    </div>
+
+ </footer>
     </body>
 </html>
