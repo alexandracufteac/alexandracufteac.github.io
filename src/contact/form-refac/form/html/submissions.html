@@ -24,8 +24,83 @@
     </head>
 
 
-    <body>
-        <div  class="container mt-5">
+  <body>
+
+    <div class="container mt-4" id="noDbDisplay">
+
+        <div class="my-5">
+          <h6>-This page is generated automatically, from the submission you make on the Contact form, when the database is connected-</h6>
+            <h6>Currently the back-end is not hosted on any server :(</h6>
+        </div>
+
+        <h6>Example of submission (hard-coded)</h6>
+
+        <div class="mb-5"> 
+          <div class="card mb-1 mt-3" style="width: 18rem; border: 1px solid red;">
+              <div class="card-body text-dark">
+                  <h5 class="card-title"> Problem Report </h5> 
+                  <h6 class="card-subtitle mb-2 text-muted">High</h6>
+                  <div class="mb-3" style="font-family: Roboto;">
+                    <p class="mb-0"> Eir </p>
+                    <p class="mb-0">eir@eircorp.com</p>
+                    <p class="mb-0">Essentials</p> 
+                  </div>
+                  <p class="card-text">Hi, I have a problem with my upload. Please assist.</p>
+              </div>
+
+          </div>
+          <div>
+            <div class="d-inline"><button type="button" data-toggle="modal" data-target="#deleteModal"> <i class="far fa-trash-alt"></i> </button> </div>
+            <div class="d-inline"> <button type="button" data-toggle="modal" data-target="#editModal"><i class="far fa-edit"></i></button> </div>
+          </div>
+          
+        </div>
+
+        <h6>Example of randomized, hard-coded submissions:</h6>
+        <div class="btn border-dark" onclick="generateRandomCard()">Generate</div>
+
+
+        <div class="mb-5"> 
+          <div class="card mb-1 mt-3" style="width: 18rem;">
+            <div class="card-body text-dark">
+                <h5 class="card-title dropdownRandomCard"></h5> 
+                <h6 class="card-subtitle mb-2 text-muted" id="priorityRandomCard"></h6>
+              <div class="mb-3" style="font-family: Roboto;">
+                <p class="mb-0" id="nameRandomCard"></p>
+                <p class="mb-0" id="emailRandomCard"></p>
+                <p class="mb-0" id="planRandomCard"></p> 
+              </div>
+                <p class="card-text" id="messageRandomCard"></p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="mb-5"> 
+          <div class="card mb-1 mt-3" style="width: 18rem;">
+            <div class="card-body text-dark">
+                <h5 class="card-title dropdownRandomCard"></h5> 
+                <h6 class="card-subtitle mb-2 text-muted" id="priorityRandomCard"></h6>
+              <div class="mb-3" style="font-family: Roboto;">
+                <p class="mb-0" id="nameRandomCard"></p>
+                <p class="mb-0" id="emailRandomCard"></p>
+                <p class="mb-0" id="planRandomCard"></p> 
+              </div>
+                <p class="card-text" id="messageRandomCard"></p>
+            </div> 
+          </div>
+        </div>
+
+     
+
+    </div>
+
+    <div id="cacat">
+
+      <p>TITI E CARTOF</p>
+    </div>
+
+
+    <div  class="container mt-5">
             <div id="card">
               
                 <!-- <div class="card border-dark mb-2" style="width: 18rem;">
@@ -39,7 +114,7 @@
                     </div>
                 </div> -->
             </div>
-        </div>
+    </div>
 
  
   <!-- Modal delete-->
@@ -136,6 +211,9 @@
     </div>
   </div>
         
-        <script src="" async defer></script>
+  <!-- SCRIPTS -->
+        <script src="./../js/front-endOnlySubmissions.js" async defer></script>
+
+
     </body>
 </html>

@@ -24,7 +24,7 @@
 
         <!--Normal nav (responsive & scrolling) -->
  
-        <nav class="d-md-none navbar navbar-expand-md navbar-dark fixed-top customNav"> 
+        <nav class="d-md-none navbar navbar-expand-md navbar-dark fixed-top customNav" id="smallNav"> 
           <div class="container-fluid">
 
               <a class="navbar-brand " href="./../../../../home/html/index.html">VIDEOFY</a>
@@ -78,7 +78,7 @@
 
 <nav class="d-none d-md-block navbar navbar-expand-md fixed-top" id="bigNav"> 
   <!-- it expands at medium size (md) -->
-  <div class="container-fluid navcontainer">
+  <div class="container-fluid" id="navContainer">
 
       <a class="navbar-brand " href="./../../../../home/html/index.html" id="logoBig"><img src="./../../../../images/logopngcr.png" class="img-fluid" alt="Logo Videofy"></a>
 
@@ -235,43 +235,12 @@
  
      </footer>
 
+      
+ <!-- Scripts -->
+ <script src="./../../../../general-js/navbar.js"></script>
+
+
 </body>
 </html>
 
 
-
-
-<!-- <script> -->
-
-<!-- // //Create
-// function formCreate() {
-//     var objToPost = {
-//       Name: "xaxaxaxa",
-//       Email: "capsunA",
-//       Dropdown: "dropdown",
-//       Plan: "plan",
-//       Priority: "priority",
-//       Message: "message"
-//     };
-
-//     $.ajax({
-//       type: "POST",
-//       url: "https://localhost:44342/api/Form/CreateForm",
-//       contentType: "application/json; charset=utf-8",
-//       beforeSend: function() {
-//         console.log("sending Ajax post now...");
-//       },
-//       dataType: "json",
-//       data: JSON.stringify(objToPost),
-//       error: function(xhr) {
-//         console.log("Error: " + xhr.statusText);
-//       },
-//       success: function() {
-//         //console.log(msg.result);
-//         console.log("success.....");
-//       }
-//     });
-//   }
-
-// //https://localhost:44342/weatherforecast -->
-<!-- // </script> -->

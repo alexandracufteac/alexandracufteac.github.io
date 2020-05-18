@@ -169,7 +169,7 @@ window.onload = onLoad;
 
 //___________________________________________________________________________________________________________________________________________
 
-//----------------------ignore this shit--- explanations & examples----------------------------------------
+//----------------------ignore this--- explanations & examples----------------------------------------
 
 // function displayDataInCard(){
 //         document.getElementById("name").textContent = submissionData[3].name;

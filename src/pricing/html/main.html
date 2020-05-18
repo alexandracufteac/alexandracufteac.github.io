@@ -33,7 +33,7 @@
 
         <!--Normal nav (responsive & scrolling) -->
  
-        <nav class="d-md-none navbar navbar-expand-md navbar-dark fixed-top customNav"> 
+        <nav class="d-md-none navbar navbar-expand-md navbar-dark fixed-top customNav" id="smallNav"> 
           <div class="container-fluid">
 
               <a class="navbar-brand " href="index.html">VIDEOFY</a>
@@ -87,7 +87,7 @@
 
 <nav class="d-none d-md-block navbar navbar-expand-md fixed-top" id="bigNav"> 
   <!-- it expands at medium size (md) -->
-  <div class="container-fluid navcontainer">
+  <div class="container-fluid" id="navContainer">
 
       <a class="navbar-brand " href="index.html" id="logoBig"><img src="./../../images/logopngcr.png" class="img-fluid" alt="Logo Videofy"></a>
 
@@ -252,20 +252,9 @@
    </footer>
 
 
-    <!--  Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      }); -->
-    <!-- </script> --> 
+     
+ <!-- Scripts -->
+ <script src="./../../general-js/navbar.js"></script>
+
   </body>
 </html>

@@ -34,10 +34,10 @@
 
         <!--Normal nav (responsive & scrolling) -->
  
-        <nav class="d-md-none navbar navbar-expand-md navbar-dark fixed-top customNav"> 
+        <nav class="d-md-none navbar navbar-expand-md navbar-dark fixed-top customNav" id="smallNav"> 
             <div class="container-fluid">
 
-                <a class="navbar-brand " href="index.html">VIDEOFY</a>
+                <a class="navbar-brand " href="index.html" id="logoSmall"><img src="./../../images/logopngcr.png" class="img-fluid" alt="Logo Videofy"></a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -88,7 +88,7 @@
 
 <nav class="d-none d-md-block navbar navbar-expand-md fixed-top" id="bigNav"> 
     <!-- it expands at medium size (md) -->
-    <div class="container-fluid navcontainer">
+    <div class="container-fluid" id="navContainer">
 
         <a class="navbar-brand " href="index.html" id="logoBig"><img src="./../../images/logopngcr.png" class="img-fluid" alt="Logo Videofy"></a>
 
@@ -342,6 +342,7 @@
 
     <!-- Scripts -->
     <script src='./../js/main.js'></script>
+    <script src="./../../general-js/navbar.js"></script>
 
 </body>
 </html>

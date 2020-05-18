@@ -1,6 +1,9 @@
 /* Navbar */
 
-.customNav {
+ 
+/* Nav for XS, SM */
+
+  .customNav {
  
     background-color: #b8cbd465;
     }
@@ -8,16 +11,22 @@
   .customNav:hover {
     background-color: darkslategray;
   }
+
+
+  #logoSmall {
+    max-width: 18vw;
+  }
+
+
   
-  
-  /* Nav for MD and higher - no scroll */
+/* Nav for MD and higher - no scroll */
   
   #bigNav{
     padding: 8px 0 0;
     
   }
   
-  .navcontainer {
+  #navContainer {
     background-color: #b1c8d34d;
   }
   
@@ -29,6 +38,7 @@
   
   }
   
+      /*...Nav links*/
   .navButtonsBig {
     font-size: 1.1rem;
     color: azure;
@@ -45,6 +55,7 @@
     font-size: 1.3rem;
   }
   
+    /*...Nav Sign up & Login btn*/
   #signUpBig {
     border: 1px solid darkslategray;
     min-width: 80px;
@@ -54,5 +65,4 @@
     background-color: darkslategray;
     min-width: 80px;
   }
-  
-  
+ 
