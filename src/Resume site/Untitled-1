@@ -1,0 +1,16 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+
+
+for (var i = 0; i < cars.length; i++)
+{
+console.log(cars[i]);
+}
+
+</script>
+</body>
+</html>

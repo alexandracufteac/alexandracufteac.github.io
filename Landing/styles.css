@@ -1,0 +1,27 @@
+/*Images animations*/
+
+.text_box {
+    position: absolute;
+    bottom:0;
+    right:0;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 2px 15% 10px 15%;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    opacity: 0;
+}
+
+.image_box:hover .text_box {
+    opacity: 0.8;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
