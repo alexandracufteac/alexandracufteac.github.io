@@ -1,0 +1,191 @@
+
+/* Color palette: 
+#ffe9c9 -  (light cream)
+#A398B5 -  (lavender=ish)
+#4b6d59 - (muted dark green)
+#2c2233 -  (dark violet)
+#b2d89e - (pale green)
+
+/* General styles ---------------------------*/
+
+
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Knewave', cursive;
+    font-weight: lighter;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+   margin: 0; 
+}
+
+a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b2d89e;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+}
+
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    text-decoration: none;
+    background: #2c2233;
+    color:white;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Navigation --------------------------*/
+
+nav {
+    text-align: center;
+    background: #2c2233;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:600;
+}
+
+/*Header and footer--------------------------*/
+
+header {
+    background: #A398B5;
+    padding-top: 50px;
+    position: relative; /*because Im using position absolute for the download btn, which is contained by the header */
+}
+
+header h1, header h2, header p {
+    color: #2c2233;
+    margin: 10px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.profile-image {
+    width:250px;
+    height: 290px;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding-right: 5px;
+    
+}
+footer {
+    background: #2c2233;
+    color: #A398B5;
+    text-align: center;
+}
+.contact-info a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+
+/* Work experience --------------------------*/
+
+.work {
+    background: #4b6d59;
+}
+
+h3 ~ p{
+    margin: 0;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+/* Courses ----------------------------------*/
+
+.courses {
+    background: #ffe9c9 ;
+}
+
+/* Education --------------------------------*/
+
+.education {
+    background: linear-gradient(rgba(178, 216, 158, 0.8), rgba(178, 216, 158, 0.5)),
+                url(../images/educationbg.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+p + h3 {
+  /*any time an h3 follows a p add margin */ 
+   margin-top: 30px; 
+}
+
+/* Media Queries --------------------------------*/
+
+@media (min-width:675px){
+    /* pt ca la 675 px nu mai arata deja bine, asa ca ce e 675 px si peste va avea coloane, dar ce e sub, nu va avea */
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+
+.col-wide{
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 175px;
+}
+}
+
+@media (max-width:674px){
+    header nav, header .content-wrap:not(:last-child){
+        text-align: center;
+    }
+    .profile-image {
+        width: 200px;
+    }
+    
+}
+
+

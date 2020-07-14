@@ -1,0 +1,68 @@
+/* Navbar */
+
+ 
+/* Nav for XS, SM */
+
+  .customNav {
+ 
+    background-color: #b8cbd465;
+    }
+  
+  .customNav:hover {
+    background-color: darkslategray;
+  }
+
+
+  #logoSmall {
+    max-width: 18vw;
+  }
+
+
+  
+/* Nav for MD and higher - no scroll */
+  
+  #bigNav{
+    padding: 8px 0 0;
+    
+  }
+  
+  #navContainer {
+    background-color: #b1c8d34d;
+  }
+  
+  #logoBig{
+    max-width: 10vw;
+    position: relative;
+    top: 0.2vw;
+    left:1.5vw;
+  
+  }
+  
+      /*...Nav links*/
+  .navButtonsBig {
+    font-size: 1.1rem;
+    color: azure;
+  }
+  
+  .navButtonsBig:hover {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    word-spacing: 5px;
+  }
+  
+  .activeBtn {
+    border-bottom: 1px solid white;
+    font-size: 1.3rem;
+  }
+  
+    /*...Nav Sign up & Login btn*/
+  #signUpBig {
+    border: 1px solid darkslategray;
+    min-width: 80px;
+  }
+  
+  #loginBig {
+    background-color: darkslategray;
+    min-width: 80px;
+  }
+ 
