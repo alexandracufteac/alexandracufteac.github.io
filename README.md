@@ -1,10 +1,9 @@
 # alexandracufteac.github.io
 
-Disclaimer:
-This website is for a fictional product called "Videofy". Any resemblance to any video editing app is purely unintentional. The images and videos found on the website belong to their rightful creators, I am only using them as placeholders.
+Access all my website projects here: https://alexandracufteac.github.io/
 
-Access the website here: https://alexandracufteac.github.io/
+The projects are still under development, as I continue to learn new skills and improve my coding. 
 
-This project is still under development, as I continue to learn new skills and improve my coding. 
+Disclaimer: The Videofy project is for a fictional product and all images, videos or names found in the project are used as placeholders and belong to their rightful owners. 
 
 Thank you!
